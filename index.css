@@ -1,0 +1,129 @@
+body{
+    background-color: #fff8c8;
+}
+.background-image{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    opacity: .5;
+}
+.navbar{
+    background-color: #3e3e3e;
+}
+.navbar-toggler:hover{
+    background-color: #fff8c8;
+}
+#navbar_content{
+    color: #fff8c8;
+}
+.carousel{
+    width: 100%;
+}
+#nav_content{
+    color:#fff8c8;
+}
+#nav_content:hover{
+    background-color:#fff8c8;
+    color: #3e3e3e;
+    border-radius: 5px;
+}
+.btn{
+    color: #fff8c8;
+}
+.btn:hover{
+    background-color: #fff8c8;
+    color: #3e3e3e;
+}
+#card{
+    width: 300px;
+    height: 300px;   
+}
+.card-title{
+    text-align: center;
+}
+.img-responsive{
+    border-radius:25px;
+}
+#card_center{
+    text-align: center;
+    font-family: alata;
+}
+.links{
+    color: #3e3e3e;
+}
+.links:hover{
+    text-decoration: none;
+    color: #000000;
+}
+.links:active{
+    color: white;
+}
+.after{
+    position: relative;
+}
+@media screen and (max-width: 1200px) {
+    div.after {
+      display: none;
+    }
+  }
+.side{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 850px;
+    z-index: -1;
+    color:#fff8c8;
+    background-color: #3e3e3e;
+    opacity: 1;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.from_title{
+    position: relative;
+    padding-left: 20%;
+}
+#navbar_content{
+    width: 100%;
+
+}
+ul{
+    list-style: none;
+}
+div#carouselExampleIndicators{
+    margin-top: 120px;
+    width: 100%;
+}
+
+#progressbar{
+    position: fixed;
+    border-radius: 7px;
+    top: 0;
+    right: 0;
+    width: 10px;
+    background: linear-gradient(to top, #fdc93a, #fc1763);
+    animation: animate 5s linear infinite;
+}
+#progressbar:before,
+#progressbar:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top,  #fdc93a, #fc1763);
+    filter: blur(10px);
+}
+#progress:after{
+    filter: blur(30px);
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+/*@media screen and (max-width: 600px) {
+    div#carouselExampleIndicators {
+      margin-top: 50px;
+    }
+}*/

@@ -1,0 +1,12 @@
+*{
+    color: #fff8c8;
+}
+body{
+    background: #fff8c8;
+}
+
+
+@media screen and (max-width:600px){
+    div.bg-img{
+        display: none;}
+}
